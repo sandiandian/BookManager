@@ -5,7 +5,7 @@ jobs:
   check-bats-version:
     runs-on: self-hosted
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@master
       - name: run build.sh
         run: ./build.sh
         shell: bash	
